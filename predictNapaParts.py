@@ -93,7 +93,7 @@ def getNearByStores(from_lat,from_long,partNum,lineAbbrev):
   }
 }
     headers = {'content-type': 'application/json'}
-    URL="http://10.10.10.233:18080/taap/invoicemanagement/partPriceAvailability"
+    URL="http://10.x.x.xxxx:18080/taap/invoicemanagement/partPriceAvailability"
     response=requests.post(url = URL, data = json.dumps(partInqReq),headers=headers)
     partRes = response.json()
     #onhand = randint(1, 100)
