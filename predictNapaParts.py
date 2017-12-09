@@ -193,4 +193,4 @@ def predictPart(image_file):
     print(pd.Series(parts).to_json(orient='values'))
     return pd.Series(parts).to_json(orient='values')
 if __name__ == '__main__':
-    app.run(host='10.5.205.157',port=8080,debug=True)
+    app.run(host='10.x.xxx.xxx',port=8080,debug=True)
